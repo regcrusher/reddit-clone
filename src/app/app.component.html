@@ -8,6 +8,6 @@
   <li><a href="javascript:void(0);" (click)="getSubredditByList($event)" data-subreddit="/r/askreddit">/r/askreddit</a></li>
 </ul>
 
-<input type="text" (change)="getSubredditByValue($event)" />
+<input type="text" (change)="getSubredditByValue($event)" placeholder="/r/explainlikeimfive"/>
 
 <app-my-reddit [subreddit]="subreddit"></app-my-reddit>

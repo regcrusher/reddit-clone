@@ -1,15 +1,15 @@
 import { TestBed, inject } from '@angular/core/testing';
 
-import { MyDataService } from './my-data.service';
+import { RedditDataService } from './my-data.service';
 
 describe('MyDataService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [MyDataService]
+      providers: [RedditDataService]
     });
   });
 
-  it('should ...', inject([MyDataService], (service: MyDataService) => {
+  it('should ...', inject([RedditDataService], (service: RedditDataService) => {
     expect(service).toBeTruthy();
   }));
 });

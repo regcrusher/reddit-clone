@@ -7,7 +7,7 @@ import { Post } from './post';
 
 
 @Injectable()
-export class MyDataService {
+export class RedditDataService {
 
   constructor(private jsonp: Jsonp) { }
 
