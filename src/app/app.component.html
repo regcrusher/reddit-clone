@@ -1,0 +1,13 @@
+<h1>
+  {{title}}
+</h1>
+
+<ul>
+  <li><a href="javascript:void(0);" (click)="getSubredditByList($event)" data-subreddit="/r/squaredcircle">/r/squaredcircle</a></li>
+  <li><a href="javascript:void(0);" (click)="getSubredditByList($event)" data-subreddit="/r/politics">/r/politics</a></li>
+  <li><a href="javascript:void(0);" (click)="getSubredditByList($event)" data-subreddit="/r/askreddit">/r/askreddit</a></li>
+</ul>
+
+<input type="text" (change)="getSubredditByValue($event)" />
+
+<app-my-reddit [subreddit]="subreddit"></app-my-reddit>
